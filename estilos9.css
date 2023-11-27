@@ -1,0 +1,67 @@
+.titulo{
+    text-align: center;
+}
+
+body{
+    background-image: linear-gradient(135deg , white, greenyellow);
+    background-size: 500%;
+    animation: fanimado 10s infinite;
+    color: black;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+@keyframes fanimado {
+    0%{
+       background-position: 0% 50% ;
+    }
+    50%{
+       background-position: 100% 50%;
+    }
+    100%{
+       background-position: 0% 50%;
+    }   
+   }
+
+.contenedor9{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen9{
+    width: 250px;
+    margin-left: 25px;
+    border-radius: 15px;
+}
+
+.contenedor9-1{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen9-1{
+    width: 250px;
+    margin-left: 25px;
+    border-radius: 15px;
+}
+
+.contenedor9-2{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen9-2{
+    width: 250px;
+    margin-left: 25px;
+    border-radius: 15px;
+}
+
+.enlace{
+    text-align: center;
+}
